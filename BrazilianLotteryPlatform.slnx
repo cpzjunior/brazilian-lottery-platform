@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/BrazilianLotteryPlatform/BrazilianLotteryPlatform.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/BrazilianLotteryPlatformTests/BrazilianLotteryPlatformTests.csproj" />
+  </Folder>
+</Solution>
