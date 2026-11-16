@@ -1,3 +1,5 @@
+🇺🇸 [English](README.md) | 🇧🇷 [Português](README.pt-BR.md)
+
 # Brazilian Lottery Platform
 
 A .NET 10 application for managing Brazilian lottery data, generating lottery games, and providing access through REST APIs and the Model Context Protocol (MCP).
