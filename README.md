@@ -68,6 +68,22 @@ Run the automated tests:
 dotnet test
 ```
 
+## Contributing
+
+Contributions are welcome!
+
+If you would like to contribute to this project:
+
+1. Fork the repository.
+2. Create a branch for your changes.
+3. Make your changes and ensure the project builds successfully.
+4. Run the existing tests and add new tests when applicable.
+5. Submit a Pull Request describing your changes.
+
+For bug reports, feature requests, or questions, please open an issue.
+
+By contributing, you agree that your contributions will be licensed under the same license as this project.
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
