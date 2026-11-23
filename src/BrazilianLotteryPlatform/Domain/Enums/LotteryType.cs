@@ -7,6 +7,6 @@ public enum LotteryType
     /// <summary>
     /// Mega-Sena lottery.
     /// </summary>
-    [Display(Name = "megasena")]
-    MegaSena
+    [Display(Name = "Mega-Sena")]
+    MegaSena,
 }

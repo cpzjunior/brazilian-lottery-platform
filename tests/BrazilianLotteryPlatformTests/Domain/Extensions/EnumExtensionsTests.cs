@@ -14,7 +14,7 @@ public class EnumExtensionsTests
         var result = LotteryType.MegaSena.GetDisplayName();
 
         // Assert
-        Assert.Equal("megasena", result);
+        Assert.Equal("Mega-Sena", result);
     }
 
     [Fact]

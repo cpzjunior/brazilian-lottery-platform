@@ -1,3 +1,6 @@
+﻿
+using System.Collections.Generic;
+
 namespace BrazilianLotteryPlatform.Domain.Entities;
 
 /// <summary>
@@ -6,14 +9,24 @@ namespace BrazilianLotteryPlatform.Domain.Entities;
 public class LotteryConfig
 {
     /// <summary>
+    /// The unique identifier of the lottery configuration.
+    /// </summary>
+    public required string Id { get; init; }
+
+    /// <summary>
     /// The lottery's name.
     /// </summary>
     public required string Name { get; init; }
 
     /// <summary>
-    /// How many numbers are drawn in each game.
+    /// The minimum number of numbers drawn in each game.
     /// </summary>
-    public int NumbersPerGame { get; init; }
+    public int MinNumbersPerGame { get; init; }
+
+    /// <summary>
+    /// The maximum number of numbers drawn in each game.
+    /// </summary>
+    public int MaxNumbersPerGame { get; init; }
 
     /// <summary>
     /// The minimum value that can be drawn in the lottery.
@@ -24,9 +37,4 @@ public class LotteryConfig
     /// The maximum value that can be drawn in the lottery.
     /// </summary>
     public int MaxValue { get; init; }
-
-    /// <summary>
-    /// The ticket prices according to the number of selected numbers.
-    /// </summary>
-    public required List<LotteryTicketPrice> TicketPrices { get; init; }
 }

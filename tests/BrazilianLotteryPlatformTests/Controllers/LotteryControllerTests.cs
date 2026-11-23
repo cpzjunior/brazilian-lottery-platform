@@ -34,6 +34,6 @@ public class LotteryControllerTests
         var lotteryTypes = Assert.IsType<string[]>(okResult.Value);
 
         Assert.Single(lotteryTypes);
-        Assert.Equal("megasena", lotteryTypes[0]);
+        Assert.Equal("Mega-Sena", lotteryTypes[0]);
     }
 }
