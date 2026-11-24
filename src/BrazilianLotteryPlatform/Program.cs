@@ -12,6 +12,7 @@ builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 
 builder.Services.AddDatabase(builder.Configuration);
+builder.Services.AddInfrastructure();
 
 var app = builder.Build();
 
