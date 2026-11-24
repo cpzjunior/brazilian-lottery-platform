@@ -1,8 +1,8 @@
-using System;
-using System.Linq;
 using BrazilianLotteryPlatform.Domain.Enums;
 using BrazilianLotteryPlatform.Domain.Extensions;
 using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Linq;
 
 namespace BrazilianLotteryPlatform.Controllers;
 

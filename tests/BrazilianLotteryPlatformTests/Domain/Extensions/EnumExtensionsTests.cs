@@ -1,7 +1,6 @@
 
 using BrazilianLotteryPlatform.Domain.Enums;
 using BrazilianLotteryPlatform.Domain.Extensions;
-using System.ComponentModel.DataAnnotations;
 
 namespace BrazilianLotteryPlatformTests.Domain.Extensions;
 

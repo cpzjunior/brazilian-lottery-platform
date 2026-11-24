@@ -1,7 +1,5 @@
 ﻿
 using BrazilianLotteryPlatform.Domain.Entities;
-using BrazilianLotteryPlatform.Domain.Enums;
-using BrazilianLotteryPlatform.Domain.Extensions;
 using Microsoft.EntityFrameworkCore;
 
 namespace BrazilianLotteryPlatform.Infrastructure.Data.Seeds;
@@ -19,12 +17,13 @@ public static class LotteryConfigSeed
         modelBuilder.Entity<LotteryConfig>().HasData(
             new LotteryConfig
             {
-                Id = LotteryType.MegaSena.ToString(),
-                Name = LotteryType.MegaSena.GetDisplayName(),
+                Id = "megasena",
+                Name = "Mega-Sena",
                 MinNumbersPerGame = 6,
                 MaxNumbersPerGame = 20,
                 MinValue = 1,
-                MaxValue = 60
+                MaxValue = 60,
+                BasePrice = 6.00m,
             });
     }
 }

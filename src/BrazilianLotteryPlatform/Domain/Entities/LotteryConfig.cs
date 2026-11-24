@@ -1,7 +1,4 @@
-﻿
-using System.Collections.Generic;
-
-namespace BrazilianLotteryPlatform.Domain.Entities;
+﻿namespace BrazilianLotteryPlatform.Domain.Entities;
 
 /// <summary>
 /// Represents the configuration of a lottery.
@@ -37,4 +34,9 @@ public class LotteryConfig
     /// The maximum value that can be drawn in the lottery.
     /// </summary>
     public int MaxValue { get; init; }
+
+    /// <summary>
+    /// Gets the price of a standard ticket with the minimum number of selected numbers.
+    /// </summary>
+    public decimal BasePrice { get; init; }
 }
